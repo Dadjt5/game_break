@@ -1,12 +1,12 @@
 export DJANGOPORT := 8000
 export DEBUG := True
 export  PGHOST := localhost
-export  PGDATABASE := polideportivo_db
+export  PGDATABASE := game_break_db
 export  PGUSER := alumnodb
 export  PGPASSWORD := alumnodb
 PSQL = psql
 CMD = python manage.py
-APP = polideportivo api
+APP = api
 export DATABASE_URL = postgres://alumnodb:alumnodb@localhost/$(PGDATABASE)
 
 clear_db:
