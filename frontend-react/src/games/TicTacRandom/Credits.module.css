@@ -1,0 +1,14 @@
+.creditCard {
+  background: white;
+  border: 1px solid #eee;
+  transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+}
+.creditCard:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1) !important;
+}
+
+.musicCredit {
+  background: #f8f9fb;
+  max-width: 500px;
+}

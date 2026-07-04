@@ -1,0 +1,15 @@
+.card {
+  border: none;
+  transition: box-shadow 0.2s ease-in-out;
+}
+
+.pageLinkActive {
+  background: #4f46e5 !important;
+  border-color: #4f46e5 !important;
+  color: white !important;
+}
+
+.tableHead th {
+  color: #4f46e5;
+  font-weight: 600;
+}

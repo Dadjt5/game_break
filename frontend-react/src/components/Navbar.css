@@ -1,0 +1,25 @@
+.navbar .nav-link {
+  cursor: pointer;
+  color: #fff;
+  transition: color 0.2s ease-in-out;
+  margin-left: 14px;
+}
+.navbar .nav-link:hover {
+  color: #0d6efd;
+}
+
+.lang-btn {
+  background: none;
+  border: none;
+  padding: 0.5rem 0;
+  font-size: inherit;
+  line-height: inherit;
+}
+.lang-btn:focus {
+  outline: none;
+  box-shadow: none;
+}
+
+.navbar-collapse {
+  transition: opacity 0.2s ease-in-out;
+}

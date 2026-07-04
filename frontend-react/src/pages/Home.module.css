@@ -1,0 +1,39 @@
+.gbPage {
+  background-color: #f8f9fb;
+}
+
+.hero {
+  background: linear-gradient(135deg, #4f46e5, #7c3aed);
+}
+
+.teamCard {
+  background: white;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+.teamCard:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1) !important;
+}
+
+.avatarCircle {
+  width: 56px;
+  height: 56px;
+  border-radius: 50%;
+  background: #eef0ff;
+  color: #4f46e5;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 700;
+  font-size: 1.2rem;
+}
+
+.gameCard {
+  background: white;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  width: 160px;
+}
+.gameCard:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1) !important;
+}

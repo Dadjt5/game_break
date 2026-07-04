@@ -1,0 +1,33 @@
+.gamePage {
+  min-height: 100vh;
+}
+
+.gameHeader {
+  background: linear-gradient(135deg, #4f46e5, #7c3aed);
+}
+
+.gameIcon {
+  max-height: 90px;
+}
+
+.btnTab {
+  display: inline-block;
+  background: white;
+  color: #4f46e5;
+  border: 2px solid #4f46e5;
+  border-radius: 999px;
+  padding: 0.5rem 1.5rem;
+  font-weight: 600;
+  text-decoration: none;
+  transition: all 0.2s ease-in-out;
+}
+
+.btnTab:hover {
+  background: #eef0ff;
+  color: #4f46e5;
+}
+
+.btnTabActive {
+  background: #4f46e5;
+  color: white !important;
+}
