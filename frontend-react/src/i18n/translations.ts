@@ -6,6 +6,7 @@ interface DiceRule {
 }
 
 export interface Translation {
+  team: string;
   music: string;
   name: string;
   objetive: string;
@@ -54,6 +55,7 @@ export interface Translation {
 
 export const translations = {  
   es: {
+    team: "El equipo",
     music: "Música",
     name: "Nombre",
     objetive: "Objetivo",
@@ -108,6 +110,7 @@ export const translations = {
 
   },
   en: {
+    team: "The team",
     music: "Music",
     name: "Name",
     objetive: "Objetive",
