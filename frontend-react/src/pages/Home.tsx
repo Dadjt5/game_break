@@ -1,6 +1,7 @@
 import { useNavigate } from "react-router-dom";
 import { useLanguage } from "../context/useLanguage";
 import icTicTacRandom from "../assets/ic_launcher.webp";
+import logo from "../assets/logo_wad_4.png";
 import styles from "./Home.module.css";
 
 interface Miembro {
@@ -37,6 +38,13 @@ export default function Home() {
       {/* HERO */}
       <section className={`${styles.hero} text-center text-white py-5 mb-5`}>
         <div className="container">
+          <img
+            src={logo}
+            alt="WoAiDa logo"
+            width="80"
+            height="80"
+            className="mb-3 rounded-circle"
+          />
           <span className="badge bg-light text-dark mb-3 px-3 py-2 rounded-pill">
             🎮 {t.homeTitle}
           </span>
