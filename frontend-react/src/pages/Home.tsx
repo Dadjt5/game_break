@@ -3,21 +3,11 @@ import { useLanguage } from "../context/useLanguage";
 import icTicTacRandom from "../assets/ic_launcher.webp";
 import styles from "./Home.module.css";
 
-interface Miembro {
-  nombre: string;
-}
-
 interface Juego {
   nombre: string;
   icono: string;
   ruta: string;
 }
-
-const equipo: Miembro[] = [
-  { nombre: "Javier" },
-  { nombre: "David" },
-  { nombre: "Aranzazu" },
-];
 
 const juegos: Juego[] = [
   {
