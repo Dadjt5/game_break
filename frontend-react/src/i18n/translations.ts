@@ -51,10 +51,16 @@ export interface Translation {
   script: string;
   translations: string;
   testers: string;
+  privacy: string;
+  cookies: string;
+  legalNotice: string;
 }
 
 export const translations = {  
   es: {
+    legalNotice: "Aviso Legal",
+    privacy: "Privacidad",
+    cookies: "Cookies",
     team: "El equipo",
     music: "Música",
     name: "Nombre",
@@ -110,6 +116,9 @@ export const translations = {
 
   },
   en: {
+    legalNotice: "Legal Notice",
+    privacy: "Privacy",
+    cookies: "Cookies",
     team: "The team",
     music: "Music",
     name: "Name",

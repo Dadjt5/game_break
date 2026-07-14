@@ -1,7 +1,10 @@
 import { Link } from "react-router-dom";
+import { useLanguage } from "../context/useLanguage";
 import styles from "./Footer.module.css";
 
 export default function Footer() {
+  const { t } = useLanguage();
+
   return (
     <footer className={styles.footer}>
       <div className="container text-center">
@@ -11,15 +14,15 @@ export default function Footer() {
         </p>
 
         <div className={styles.links}>
-          <Link to="/legal">Aviso Legal</Link>
+          <Link to="/legal">{t.legalNotice}</Link>
 
           <span>•</span>
 
-          <Link to="/privacy">Privacidad</Link>
+          <Link to="/privacy">{t.privacy}</Link>
 
           <span>•</span>
 
-          <Link to="/cookies">Cookies</Link>
+          <Link to="/cookies">{t.cookies}</Link>
         </div>
 
       </div>
