@@ -5,11 +5,15 @@ import Footer from "./components/Footer";
 
 export default function App() {
   return (
-    <>
+    <div className="d-flex flex-column min-vh-100">
       <ScrollToTop />
       <Navbar />
-      <Outlet />
+
+      <main className="flex-grow-1">
+        <Outlet />
+      </main>
+
       <Footer />
-    </>
+    </div>
   );
 }
