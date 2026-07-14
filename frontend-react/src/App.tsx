@@ -9,6 +9,5 @@ export default function App() {
       <Navbar />
       <Outlet />
       <Footer />
-    </div>
   );
 }
