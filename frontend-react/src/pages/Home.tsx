@@ -53,20 +53,6 @@ export default function Home() {
           <p className="text-muted mb-4 mx-auto" style={{ maxWidth: 700 }}>
             {t.homeThanks}
           </p>
-          <div className="d-flex justify-content-center flex-wrap gap-4">
-            {equipo.map((miembro) => (
-              <div
-                key={miembro.nombre}
-                className={`${styles.teamCard} p-4 rounded-4 shadow-sm`}
-                style={{ width: 180 }}
-              >
-                <div className={`${styles.avatarCircle} mx-auto mb-3`}>
-                  {miembro.nombre.charAt(0)}
-                </div>
-                <h6 className="mb-0">{miembro.nombre}</h6>
-              </div>
-            ))}
-          </div>
         </section>
 
         {/* JUEGOS */}
