@@ -35,9 +35,9 @@ export default function Legal() {
           </p>
 
           <ul>
-            <li><strong>Javier [Apellidos]</strong></li>
+            <li><strong>David Juzgado Torell</strong></li>
             <li>España</li>
-            <li>Correo de contacto: contacto@woaida.com</li>
+            <li>Correo de contacto: contact.woaida@gmail.com</li>
           </ul>
 
           <hr />
