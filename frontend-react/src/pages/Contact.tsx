@@ -1,7 +1,7 @@
 import styles from "./Contact.module.css";
 import { useLanguage } from "../context/useLanguage";
 
-const EMAIL = "contact.gamebreak@gmail.com";
+const EMAIL = "contact.woaida@gmail.com";
 
 export default function Contacto() {
   const { t } = useLanguage();
