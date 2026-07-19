@@ -20,7 +20,7 @@ interface MusicCredit {
 }
 
 const creditos: GrupoCredito[] = [
-  { rol: "development", personas: ["Dadjt5"] },
+  { rol: "development", personas: ["David"] },
   { rol: "designArt", personas: ["Javier"] },
   { rol: "script", personas: ["David"] },
   { rol: "translations", personas: ["Aranzazu"] },
